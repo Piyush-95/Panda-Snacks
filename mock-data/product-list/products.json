@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Milk Products",
+        "sectionId": 1,
+        "products": [
+            {
+                "name": "Premium Milk",
+                "price": 23,
+                "historyPrice": 22,
+                "src": "",
+                "sku": 1,
+                "discount": "5",
+                "stock": 5
+            },
+            {
+                "name": "Curd",
+                "price": 40,
+                "historyPrice": 38,
+                "src": "",
+                "sku": 2,
+                "discount": "5",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Ice Cream",
+        "sectionId": 2,
+        "products": [
+            {
+                "name": "Amul Cone Choco Vanilla",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "discount": null,
+                "stock": 5
+            },
+            {
+                "name": "Arun Cup Vanilla",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 8,
+                "discount": null,
+                "stock": 0
+            }
+        ]
+    }
+]
