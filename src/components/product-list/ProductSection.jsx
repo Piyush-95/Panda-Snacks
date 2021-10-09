@@ -9,7 +9,7 @@ export default class ProductSection extends Component {
         super(props);
 
         this.state = {
-            isOpened: true,
+            isOpened: false,
         };
     }
 
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     },
     name: {
         fontWeight: 'bold',
+        color: colors.skyblue
     },
     button: {
         backgroundColor: colors.white,

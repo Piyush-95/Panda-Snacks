@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { ActivityIndicator, FlatList, View, StyleSheet, TextInput } from 'react-native';
+import { ActivityIndicator, FlatList, View, StyleSheet } from 'react-native';
 
 import ProductSection from './ProductSection';
+import Location from '../location/Location';
 import colors from '../../config/colors';
 
 export default class ProductListPage extends Component {
@@ -10,8 +11,7 @@ export default class ProductListPage extends Component {
 
         this.state = {
             data: [],
-            isLoading: true,
-            searchText: ''
+            isLoading: true
         };
     }
 
@@ -32,40 +32,33 @@ export default class ProductListPage extends Component {
     }
 
     render() {
-        const { data, isLoading, searchText } = this.state;
+        const { data, isLoading } = this.state;
 
         return (
-            <View style={styles.sectionList}>
-                <TextInput
-                    style={styles.input}
-                    onChangeText={(searchText) => this.setState({ searchText })}
-                    value={searchText}
-                    placeholder="Search any product or sections"
-                    keyboardType="text"
-                />
-                {isLoading ? <ActivityIndicator /> : (
-                    <FlatList
-                        data={data}
-                        keyExtractor={({ sectionId }, index) => sectionId.toString()}
-                        renderItem={({ item }) => (
-                            <ProductSection section={item} />
-                        )}
-                    />
-                )}
+            <View style={styles.listPage}>
+                <Location />
+                <View style={styles.sectionList}>
+                    {isLoading ? <ActivityIndicator /> : (
+                        <FlatList
+                            data={data}
+                            keyExtractor={({ sectionId }, index) => sectionId.toString()}
+                            renderItem={({ item }) => (
+                                <ProductSection section={item} />
+                            )}
+                        />
+                    )}
+                </View>
             </View>
         );
     }
 };
 
 const styles = StyleSheet.create({
+    listPage: {
+        //
+    },
     sectionList: {
         backgroundColor: colors.white,
         padding: 10,
     },
-    input: {
-        height: 30,
-        backgroundColor: colors.beige,
-        borderWidth: 1,
-        borderRadius: 10
-    }
 });

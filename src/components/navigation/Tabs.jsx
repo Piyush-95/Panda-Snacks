@@ -4,6 +4,8 @@ import { View, StyleSheet, Text, Image } from 'react-native';
 
 import ProductListPage from '../product-list/ProductListPage';
 import Basket from '../basket/Basket';
+import Search from '../search/Search';
+import Profile from '../profile/Profile';
 import colors from '../../config/colors';
 
 const Tab = createBottomTabNavigator();
@@ -14,6 +16,7 @@ function Tabs() {
       initialRouteName='Home'
       screenOptions={{
         tabBarShowLabel: false,
+        headerShown: false,
         tabBarStyle: {
           position: 'absolute',
           bottom: 15,
@@ -39,12 +42,12 @@ function Tabs() {
                   tintColor: focused ? colors.red : colors.grey
                 }} />
               <Text style={{
-                tintColor: focused ? colors.red : colors.grey
+                textDecorationColor: focused ? colors.red : colors.grey
               }}>HOME</Text>
             </View>
           ),
         }} />
-      <Tab.Screen name="Search" component={Basket}
+      <Tab.Screen name="Search" component={Search}
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={styles.icon}>
@@ -57,7 +60,7 @@ function Tabs() {
                   tintColor: focused ? colors.red : colors.grey
                 }} />
               <Text style={{
-                tintColor: focused ? colors.red : colors.grey
+                textDecorationColor: focused ? colors.red : colors.grey
               }}>Search</Text>
             </View>
           ),
@@ -75,12 +78,12 @@ function Tabs() {
                   tintColor: focused ? colors.red : colors.grey
                 }} />
               <Text style={{
-                tintColor: focused ? colors.red : colors.grey
+                textDecorationColor: focused ? colors.red : colors.grey
               }}>Cart</Text>
             </View>
           ),
         }} />
-      <Tab.Screen name="Profile" component={Basket}
+      <Tab.Screen name="Profile" component={Profile}
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={styles.icon}>
@@ -93,7 +96,7 @@ function Tabs() {
                   tintColor: focused ? colors.red : colors.grey
                 }} />
               <Text style={{
-                tintColor: focused ? colors.red : colors.grey
+                textDecorationColor: focused ? colors.red : colors.grey
               }}>Profile</Text>
             </View>
           ),

@@ -9,4 +9,5 @@ export default {
   pink: 'pink',
   grey: 'grey',
   beige: '#F5F5DC',
+  skyblue: 'skyblue',
 };

@@ -9,15 +9,57 @@
                 "historyPrice": 22,
                 "src": "",
                 "sku": 1,
+                "sectionId": 1,
                 "discount": "5",
                 "stock": 5
             },
             {
-                "name": "Curd",
+                "name": "Curd 500g",
                 "price": 40,
                 "historyPrice": 38,
                 "src": "",
                 "sku": 2,
+                "sectionId": 1,
+                "discount": "5",
+                "stock": 5
+            },
+            {
+                "name": "Curd 200g",
+                "price": 25,
+                "historyPrice": 24,
+                "src": "",
+                "sku": 3,
+                "sectionId": 1,
+                "discount": "5",
+                "stock": 5
+            },
+            {
+                "name": "Paneer 500g",
+                "price": 175,
+                "historyPrice": 170,
+                "src": "",
+                "sku": 4,
+                "sectionId": 1,
+                "discount": "5",
+                "stock": 5
+            },
+            {
+                "name": "Paneer 200g",
+                "price": 75,
+                "historyPrice": 72,
+                "src": "",
+                "sku": 5,
+                "sectionId": 1,
+                "discount": "5",
+                "stock": 5
+            },
+            {
+                "name": "Sweet Curd",
+                "price": 15,
+                "historyPrice": 14,
+                "src": "",
+                "sku": 6,
+                "sectionId": 1,
                 "discount": "5",
                 "stock": 5
             }
@@ -33,17 +75,171 @@
                 "historyPrice": null,
                 "src": "",
                 "sku": 5,
+                "sectionId": 2,
                 "discount": null,
                 "stock": 5
             },
             {
-                "name": "Arun Cup Vanilla",
-                "price": 10,
+                "name": "Amul Cone Choco Vanilla",
+                "price": 20,
                 "historyPrice": null,
                 "src": "",
                 "sku": 8,
+                "sectionId": 2,
                 "discount": null,
                 "stock": 0
+            },
+            {
+                "name": "Amul Cone Butterscotch",
+                "price": 25,
+                "historyPrice": null,
+                "src": "",
+                "sku": 6,
+                "sectionId": 2,
+                "discount": null,
+                "stock": 5
+            },
+            {
+                "name": "Amul Cone Butterscotch Gold",
+                "price": 30,
+                "historyPrice": null,
+                "src": "",
+                "sku": 7,
+                "sectionId": 2,
+                "discount": null,
+                "stock": 0
+            },
+            {
+                "name": "Amul Cone Chocolate",
+                "price": 30,
+                "historyPrice": null,
+                "src": "",
+                "sku": 9,
+                "sectionId": 2,
+                "discount": null,
+                "stock": 5
+            },
+            {
+                "name": "Amul Cone Pista",
+                "price": 35,
+                "historyPrice": null,
+                "src": "",
+                "sku": 10,
+                "sectionId": 2,
+                "discount": null,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "name": "Biscuits",
+        "sectionId": 3,
+        "products": [
+            {
+                "name": "Britania 50-50",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 3,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Mixtures",
+        "sectionId": 4,
+        "products": [
+            {
+                "name": "Jyoti Special Mixture",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 4,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Haldirams Products",
+        "sectionId": 5,
+        "products": [
+            {
+                "name": "Jyoti Special Mixture",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 5,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Lays & Kurkure",
+        "sectionId": 6,
+        "products": [
+            {
+                "name": "American Lays",
+                "price": 10,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 6,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Frozen Products",
+        "sectionId": 7,
+        "products": [
+            {
+                "name": "Green Peas",
+                "price": 100,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 7,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Snacks items",
+        "sectionId": 8,
+        "products": [
+            {
+                "name": "Pettis",
+                "price": 20,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 8,
+                "discount": null,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "name": "Sweets",
+        "sectionId": 9,
+        "products": [
+            {
+                "name": "Chena Poda",
+                "price": 40,
+                "historyPrice": null,
+                "src": "",
+                "sku": 5,
+                "sectionId": 9,
+                "discount": null,
+                "stock": 5
             }
         ]
     }

@@ -4,7 +4,7 @@ import Constant from 'expo-constants';
 
 import colors from '../../config/colors';
 
-export default class Basket extends Component {
+export default class Profile extends Component {
     constructor(props) {
         super(props);
 
@@ -14,7 +14,7 @@ export default class Basket extends Component {
 
         return (
             <View style={styles.product}>
-                <Text >Cart</Text>
+                <Text >Profile</Text>
             </View>
         );
     }
