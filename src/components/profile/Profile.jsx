@@ -14,7 +14,7 @@ export default class Profile extends Component {
 
         return (
             <View style={styles.product}>
-                <Text >Profile</Text>
+                <Text >My Profile</Text>
             </View>
         );
     }
